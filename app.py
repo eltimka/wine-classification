@@ -39,7 +39,7 @@ with col3:
 # ============================================
 st.header("Step 2: Understand the Features ")
 
-st.markdown("**Question 6: What are the feature names?**")
+st.markdown("What are the feature names?**")
 
 # Print the names of the 13 features
 st.write("**Features (13 chemical properties):**")
@@ -61,7 +61,7 @@ For example: alcohol content, color intensity, pH level, etc.
 # ============================================
 st.header("Step 3: Understand the Labels ")
 
-st.markdown("**Question 6: What are the label names?**")
+st.markdown("**What are the label names?**")
 
 # Print the label type of wine (Class_0, Class_1, Class_2)
 st.write("**Labels (Wine Classes):**")
@@ -93,7 +93,7 @@ st.dataframe(sample_df, use_container_width=True)
 # ============================================
 st.header("Step 4: Split Data into Training and Testing Sets ")
 
-st.markdown("**Question 7: Split the dataset (70% training, 30% testing)**")
+st.markdown("**Split the dataset (70% training, 30% testing)**")
 
 # Import train_test_split function
 from sklearn.model_selection import train_test_split
@@ -136,7 +136,7 @@ st.markdown("""
 # ============================================
 st.header("Step 5: Create and Train the Naive Bayes Model ")
 
-st.markdown("**Question 8: Create, train, and make predictions**")
+st.markdown("**Create, train, and make predictions**")
 
 # Import Gaussian Naive Bayes model
 from sklearn.naive_bayes import GaussianNB
@@ -194,7 +194,7 @@ st.dataframe(predictions_df, use_container_width=True)
 # ============================================
 st.header("Step 6: Evaluate Model Performance ")
 
-st.markdown("**Question 9: Calculate the accuracy**")
+st.markdown("**Calculate the accuracy**")
 
 # Import scikit-learn metrics module for accuracy calculation
 from sklearn import metrics
@@ -281,7 +281,7 @@ st.markdown("""
 # ============================================
 # SUMMARY
 # ============================================
-st.header("🎓 Summary")
+st.header("Summary")
 
 st.success(f"""
 ###  Project Complete!
