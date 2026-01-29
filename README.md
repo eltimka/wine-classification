@@ -3,7 +3,7 @@
 Multi-class wine classification using Naive Bayes algorithm.
 
 ##  Live Demo
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://wine-classification-app-yyar7x.streamlit.app/) 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://eltimka-wine-classification-app-yyar7x.streamlit.app/) 
 
 ##  Features
 - Classification of 3 wine types
